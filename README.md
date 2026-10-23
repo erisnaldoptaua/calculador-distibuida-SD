@@ -1,4 +1,4 @@
-# Calculadora Distribuída - Paradigmas de Invocação Remota (AT03)
+# Calculadora Distribuída - Paradigmas de Invocação Remota 
 
 Este repositório contém parte da implementação da **Calculadora Distribuída** desenvolvida para a **Atividade 03 (AT03)** da disciplina de **Sistemas Distribuídos**.
 
@@ -93,21 +93,16 @@ Demonstra a invocação remota de métodos de objetos Java distribuídos via pro
    ```bash
    cd RMI
    ```
-2. **Inicie o Registro RMI (`rmiregistry`):**
+2. **Inicie o Servidor RMI (`rmiregistry`):**
    ```bash
-   rmiregistry 1099
+   java Calculadora
    ```
-3. **Inicie o Servidor RMI:**
-   Em um novo terminal, registre e inicie o serviço remoto:
-   ```bash
-   java ServidorRMI
-   ```
-4. **Inicie o Cliente RMI:**
+3. **Inicie o Cliente RMI:**
    Em outro terminal, execute o cliente para obter a referência remota e invocar os métodos:
    ```bash
-   java ClienteRMI
+   java CalculadoraCliente
    ```
-
+4. 
 ---
 
 ## 📊 Resumo das Portas Utilizadas
