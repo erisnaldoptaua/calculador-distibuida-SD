@@ -28,7 +28,9 @@ Lembrando que o sistema permite realizar as quatro operações matemáticas bás
 - **Gradle** (para o projeto Ktor/Kotlin no módulo `JsonRPC`)
 - IDE de sua preferência (**NetBeans**, **VS Code** ou **IntelliJ IDEA**)
 - Editar o arquivos hosts do cliente e cadastrar srvsockets com o ip do servidor
-
+Obs. Comando para executar o arquivo .jar
+java -cp JavaProjectServerSocket_Calculadora.jar CalculadoraServerSocket
+java -cp JavaProjectServerSocket_Calculadora.jar Calculadora
 ---
 
 ## 🚀 Como Executar cada Projeto
@@ -46,7 +48,7 @@ Demonstra a comunicação direta e síncrona através de *streams* de bytes via 
    ```bash
    java ServerSocket_Calculadora
    ```
-   *O servidor ficará aguardando conexões na porta `12345`.*
+   *O servidor ficará aguardando conexões na porta `9090`.*
 
 3. **Inicie o Cliente:**
    Em um novo terminal, execute o cliente:
@@ -112,6 +114,6 @@ Demonstra a invocação remota de métodos de objetos Java distribuídos via pro
 
 | Módulo | Protocolo Base | Porta Padrão |
 | :--- | :--- | :--- |
-| **Socket** | TCP | `12345` |
+| **Socket** | TCP | `9090` |
 | **JsonRPC** | HTTP / JSON | `8080` |
 | **RMI** | JRMP / TCP | `1099` |
