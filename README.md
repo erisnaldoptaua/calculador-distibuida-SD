@@ -4,7 +4,9 @@ Este repositório contém parte da implementação da **Calculadora Distribuída
 
 O projeto está organizado em três pastas principais, cada uma demonstrando um modelo diferente de comunicação cliente-servidor e invocação remota:
 
-O senário utilizado para os testes na comunicação foram realizados com o cliente sendo uma maquina virtual linux. Assim todos os clientes tentaram se conectar no servidor chamado srvsockets. Esse valor pode ser renomeado no código fonte de cada projeto.
+O cenário utilizado para os testes de comunicação foi configurado com o cliente executando em uma máquina virtual Linux. Assim, todos os clientes tentaram se conectar ao servidor chamado srvsockets. Esse nome pode ser alterado no código-fonte de cada projeto.
+
+Lembrando que o sistema permite realizar as quatro operações matemáticas básicas (adição, subtração, multiplicação e divisão), bem como a execução de expressões matemáticas, como, por exemplo: (10 + 3) * 8.
 
 
 ---
