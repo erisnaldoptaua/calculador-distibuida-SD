@@ -63,11 +63,15 @@ Demonstra a comunicação direta e síncrona através de *streams* de bytes via 
 
 Demonstra o modelo de Invocação de Procedimento Remoto (RPC) utilizando requisições HTTP POST codificadas em formato JSON.
 
-1. **Acesse a pasta:**
+1. **Descompactar o arquivo JsonRPC.tar.gz**
+   ```bash
+   tar -xzvf JsonRPC.tar.gz
+
+2. **Acesse a pasta:**
    ```bash
    cd JsonRPC
    ```
-2. **Inicie o Servidor (Ktor/Kotlin):**
+3. **Inicie o Servidor (Ktor/Kotlin):**
    Execute o servidor utilizando o Gradle Wrapper:
    ```bash
    ./gradlew run
@@ -75,13 +79,13 @@ Demonstra o modelo de Invocação de Procedimento Remoto (RPC) utilizando requis
    *(No Windows, utilize: `gradlew.bat run`)*  
    *O servidor Ktor será iniciado na porta `8080`.*
 
-3. **Inicie o Cliente (Java):**
+4. **Inicie o Cliente (Java):**
    Em um novo terminal, compile e execute o cliente Java:
    ```bash
    javac ClienteJsonRpc.java
    java ClienteJsonRpc
    ```
-4. **Utilização:** Escolha a operação matemática para enviar as chamadas JSON-RPC ao servidor.
+5. **Utilização:** Escolha a operação matemática para enviar as chamadas JSON-RPC ao servidor.
 
 ---
 
