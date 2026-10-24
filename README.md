@@ -102,9 +102,7 @@ Demonstra a invocação remota de métodos de objetos Java distribuídos via pro
    ```bash
    java CalculadoraCliente
    ```
-4. 
----
-
+   
 ## 📊 Resumo das Portas Utilizadas
 
 | Módulo | Protocolo Base | Porta Padrão |
